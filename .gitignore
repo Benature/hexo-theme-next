@@ -7,5 +7,13 @@ package-lock.json
 node_modules/
 
 # Ignore optional external libraries
+source/lib/*
 _config.yml
 
+# Track internal libraries & Ignore unused verdors files
+source/lib/font-awesome/less/
+source/lib/font-awesome/scss/
+!source/lib/font-awesome/
+!source/lib/three/
+!source/lib/anime.min.js
+!source/lib/velocity/
